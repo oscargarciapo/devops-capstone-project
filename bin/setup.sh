@@ -15,7 +15,7 @@ echo "Checking the Python version..."
 python3 --version
 
 echo "Creating a Python virtual environment"
-python3.9.15 -m venv ~/venv
+python3.8 -m venv ~/venv
 
 echo "Configuring the developer environment..."
 echo "# DevOps Capstone Project additions" >> ~/.bashrc
